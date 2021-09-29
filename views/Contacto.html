@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <meta name="keywords" content="fotografia, marketing, video, digital,emprendedores, redes sociales, campañas publicitarias, tienda, tecnologia">
+    <meta name="descripcion" content="Dejanos un mensaje y te contactamos para poder colaborarte en lo que necesites">
+    <title>Estudio Pirata</title><!--titulo-->
+</head>
+<body>
+    <header class= "header" ><!--Imagen con el titulo principal-->
+        <img class="header__logo1 animate_animated animate_bounce" src="../resources/DiseñoG/header__logo1.png" alt=¨EstudioPirata¨>
+        <img class="header__logo2" src="../resources/DiseñoG/header__logo2.png" alt=¨EstudioPirata¨>
+        <img class="header__logo3" src="../resources/DiseñoG/header__logo3.jpg" alt=¨EstudioPirata¨>
+    </header>
+    <nav class="nav"> <!--Menu de navegacion-->
+        <ul class="nav__lista">
+            <li class="nav__navegacion"><a href="../index.html">Inicio</a></li>
+            <li class="nav__navegacion nav__navegacion--color"><a href="./Portfolio.html">Portfolio</a></li>
+            <li class="nav__navegacion"><a href="./Clientes.html">Clientes</a></li>
+            <li class="nav__navegacion nav__navegacion--color"><a href="./Tienda.html">Tienda</a></li>
+        </ul>
+    </nav>
+    <h1>¿Necesitas mas información?</h1>
+    <h2>Escribinos para armar juntos un presupuesto</h2>
+    <form class="formulario">
+        <label for=¨Nombre¨>Nombre*</label>
+        <input type=¨text¨ name=¨Nombre¨ required>
+        <label for=¨EMail¨>EMail*</label>
+        <input type=¨email¨ name=¨Email¨ required>
+        <label for=¨Telefono¨>Telefono*</label>
+        <input type=¨number¨ name=¨Telefono¨ required>
+        <select name=¨Horario¨>
+            <option>Horario de contacto</option>
+            <option value=¨Tarde¨>Tarde</option>
+            <option value=¨Noche¨>Noche</option>
+        </select>
+        <option value=¨Mañana¨>Mañana</option>
+        <label for=¨Novedades¨>Deseo recibir novedades</label>
+        <input type="checkbox" name=¨Novedades¨>
+        <button type="submit" class="btn btn-primary" id="liveAlertBtn">Enviar</button>
+        <div class="alert alert-primary alert-dismissible" role="alert" id="liveAlert">
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            <strong>Gracias!</strong> Nos vamos a estar comunicando a la brevedad.
+        </div>
+    </form>
+    <div class="monedasContacto">
+        <img class="monedas__1" src="../resources/DiseñoG/monedas.png" alt=¨moneda¨>
+        <img class="monedas__2" src="../resources/DiseñoG/monedas.png" alt=¨moneda¨>
+        <img class="monedas__3" src="../resources/DiseñoG/monedas.png" alt=¨moneda¨>
+    </div>
+    <footer>
+        Copyright &copy; 2020
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+</body>
+</html>
